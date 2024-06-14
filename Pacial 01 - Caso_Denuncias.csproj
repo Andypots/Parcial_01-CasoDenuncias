@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ListarDenuncias.aspx" />
     <Content Include="Web.config" />
     <Content Include="BuscarDenuncia.aspx" />
     <Content Include="AdministrarDenuncias.aspx" />
@@ -74,6 +75,13 @@
     <Content Include="NuevaDenuncia.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ListarDenuncias.aspx.cs">
+      <DependentUpon>ListarDenuncias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListarDenuncias.aspx.designer.cs">
+      <DependentUpon>ListarDenuncias.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BuscarDenuncia.aspx.cs">
       <DependentUpon>BuscarDenuncia.aspx</DependentUpon>

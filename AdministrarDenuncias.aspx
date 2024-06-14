@@ -54,7 +54,9 @@
             <tr>
                 <td class="auto-style2">&nbsp;</td>
                 <td class="auto-style3">&nbsp;</td>
-                <td>&nbsp;</td>
+                <td>
+                    <asp:HyperLink ID="HyperLink4" runat="server" Font-Size="X-Large" NavigateUrl="~/ListarDenuncias.aspx">Listar Denuncias</asp:HyperLink>
+                </td>
             </tr>
             <tr>
                 <td class="auto-style2">&nbsp;</td>
